@@ -1,0 +1,92 @@
+{
+  "students": [
+    {
+      "name": "john wick second",
+      "course": "basketballer",
+      "edate": "Tue Jan 05 2021",
+      "id": 1
+    },
+    {
+      "name": "timmy duncan",
+      "course": "basketballer",
+      "edate": "Tue Jan 05 2021",
+      "id": 2
+    },
+    {
+      "name": "steph curry",
+      "course": "basketballer",
+      "edate": "Tue Jan 05 2021",
+      "id": 3
+    },
+    {
+      "name": "tommen",
+      "course": "game of thrones",
+      "edate": "Tue Jan 05 2021",
+      "id": 9
+    },
+    {
+      "name": "asd",
+      "course": "weraf",
+      "edate": "Wed Jan 06 2021",
+      "id": 10
+    },
+    {
+      "name": "timmy",
+      "course": "boy",
+      "edate": "Wed Jan 06 2021",
+      "id": 11
+    },
+    {
+      "name": "test2",
+      "course": "111",
+      "edate": "Wed Jan 06 2021",
+      "id": 13
+    },
+    {
+      "name": "ttest",
+      "course": "123123",
+      "edate": "Wed Jan 06 2021",
+      "id": 14
+    },
+    {
+      "name": "45ttttt",
+      "course": "rtrr",
+      "edate": "Wed Jan 06 2021",
+      "id": 15
+    },
+    {
+      "name": "ajax",
+      "course": "basketballer",
+      "edate": "Wed Jan 06 2021",
+      "id": 16
+    },
+    {
+      "name": "hy",
+      "course": "coding",
+      "edate": "Wed Jan 06 2021",
+      "id": 17
+    }
+  ],
+  "courses": [
+    {
+      "name": "basketballer",
+      "studentCount": "0",
+      "id": 4
+    },
+    {
+      "name": "game of thrones",
+      "studentCount": "1",
+      "id": 5
+    },
+    {
+      "name": "assassino",
+      "studentCount": "0",
+      "id": 6
+    },
+    {
+      "name": "coding",
+      "studentCount": "12",
+      "id": 7
+    }
+  ]
+}

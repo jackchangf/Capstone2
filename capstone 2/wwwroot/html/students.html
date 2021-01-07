@@ -194,6 +194,9 @@
                     "<td> " + x.edate + "</td >" +
                     "<td> <input type='button' value='edit' onclick='Edit(" + x.id + ",\"" + x.name + "\",\"" + x.course + "\")'></td >" +
                     "<td> <input type='button' value='delete' onclick='Delete(" + x.id + ")'> </td >" +
+                    //"<td> <input type='button' value='view' onclick='PassData(" + x.id + ")'> </td >" +
+                    '<td> <a href="#" id="pd' + x.id + '" onclick="PassData(this ,' + x.id + ',\'' + x.name + '\')">pass data</a></td >' +
+                    //'<td> <a href="#" id="pd'+x.id+'" onclick="console.log(this)">pass data</a></td >' +
                     "</tr>";
             }
 
@@ -332,6 +335,13 @@
                 })
                 .fail(response => Error(response));
         }
+
+        //passdata
+        function PassData(obj, id, name) {
+            var querystring = "passdata.html?id=" + id + "&name=" + name;
+            //var identifier = "#pd" + id;
+            $(obj).attr("href", querystring);
+        }  
 
     </script>
 
